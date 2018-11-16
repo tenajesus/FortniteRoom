@@ -119,14 +119,16 @@
             </b>
           </l>
             <br>  
-             <p>
-              <h4>
-                <span class="label label-success">Selecciona la opción de pago</span>
-              <h4>
-              </p> 
-            <a href="https://www.paypal.com" target="_blank"><img src="img/paypal.png" width="110" height="60"></a>
-            <img src="img/oxxo.png" width="80" height="43">
-        </div>
+            <hr>
+              <!-- Botón de Paypal -->
+
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+<input type="image" src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_buynowCC_LG.gif" target="_blank" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+</form>
+     </div>
       </div> 
         </p>
 
